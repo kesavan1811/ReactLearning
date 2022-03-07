@@ -31,9 +31,6 @@ const UserFilter=()=> {
     const filterDropdown = allUsers.filter(function(result){
         return result.title===users;
     })
-
-    console.log("hii")
-
   return (
     <div>
         <form onSubmit={handleSubmitUsers} > 
