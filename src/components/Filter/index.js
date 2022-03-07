@@ -32,6 +32,8 @@ const UserFilter=()=> {
         return result.title===users;
     })
 
+    console.log("hii")
+
   return (
     <div>
         <form onSubmit={handleSubmitUsers} > 
